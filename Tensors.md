@@ -3,7 +3,6 @@
 
 Tensors are fundamental data structures in TensorFlow, representing multi-dimensional arrays or matrices. They are the primary building blocks used for storing and manipulating data in TensorFlow computations. Understanding tensors is essential for effectively working with TensorFlow and building machine learning
 
-----
 
 ## Importing Libraries
 - tensorflow
@@ -13,8 +12,6 @@ Tensors are fundamental data structures in TensorFlow, representing multi-dimens
 import tensorflow as tf
 import numpy as np
 ```
-
----
 
 ## Creating Tensors
 
@@ -60,7 +57,7 @@ tensor_random_normal = tf.random.normal([3, 3], mean=0.0, stddev=1.0)
 ```python
 tensor_random_uniform = tf.random.uniform([2, 2], minval=0, maxval=10)
 ```
----
+
 
 ## Types of Tensors
 In TensorFlow, tensors can be categorized based on mutability into two main types:
@@ -75,7 +72,6 @@ tensor = tf.Variable ([1, 2, 3, 4, 5])
 tensor = tf.constant ([1, 2, 3, 4, 5])
 ```
 
----
 
 ## Opearations on Tensors
 
